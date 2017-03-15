@@ -1,0 +1,1 @@
+a:7:{i:0;s:6:"roleid";i:1;s:8:"rolename";i:2;s:11:"description";i:3;s:9:"listorder";i:4;s:8:"disabled";s:3:"_pk";s:6:"roleid";s:5:"_type";a:5:{s:6:"roleid";s:19:"tinyint(3) unsigned";s:8:"rolename";s:11:"varchar(50)";s:11:"description";s:4:"text";s:9:"listorder";s:20:"smallint(5) unsigned";s:8:"disabled";s:19:"tinyint(1) unsigned";}}

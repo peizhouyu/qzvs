@@ -1,0 +1,98 @@
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <title></title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <link rel="shortcut icon" href="favicon.ico"> <link href="__CSSURL__/bootstrap.min.css?v=3.3.5" rel="stylesheet">
+    <link href="__CSSURL__/font-awesome.css?v=4.4.0" rel="stylesheet">
+    <link href="__CSSURL__/animate.css" rel="stylesheet">
+    <link href="__CSSURL__/style.css?v=4.0.0" rel="stylesheet"><base target="_self">
+    <link href="__CSSURL__/plugins/dropzone/basic.css" rel="stylesheet">
+    <link href="__CSSURL__/plugins/dropzone/dropzone.css" rel="stylesheet">
+</head>
+
+<body class="gray-bg">
+    <div class="wrapper wrapper-content animated fadeInRight">
+        <div class="row">
+            <div class="col-sm-6" style="width:100%;">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>新增视频文件</h5>
+                    </div>
+                    <div class="ibox-content">
+                        <form id="my-awesome-dropzone" class="dropzone" action="__ROOT__/Public/upload/upload.php?action=tk">
+                            <div class="dropzone-previews"></div>
+                            <button type="submit" class="btn btn-primary pull-right">提交</button>
+                        </form>
+                    </div>
+               
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- 全局js -->
+    <script src="__JSURL__/jquery.min.js?v=2.1.4"></script>
+    <script src="__JSURL__/bootstrap.min.js?v=3.3.5"></script>
+
+    <!-- 自定义js -->
+    <script src="__JSURL__/content.js?v=1.0.0"></script>
+
+    <!-- jQuery Validation plugin javascript-->
+    <script src="__JSURL__/plugins/validate/jquery.validate.min.js"></script>
+    <script src="__JSURL__/plugins/validate/messages_zh.min.js"></script>
+    
+    <script src="__JSURL__/demo/form-validate-demo.js"></script>
+
+
+    <!-- DROPZONE -->
+    <script src="__JSURL__/plugins/dropzone/dropzone.js"></script>
+
+
+    <script>
+        $(document).ready(function () {
+
+            Dropzone.options.myAwesomeDropzone = {
+
+                autoProcessQueue: false,
+                uploadMultiple: true,
+                parallelUploads: 100,
+                maxFiles: 100,
+
+                // Dropzone settings
+                init: function () {
+                    var myDropzone = this;
+
+                    this.element.querySelector("button[type=submit]").addEventListener("click", function (e) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        myDropzone.processQueue();
+                    });
+                    this.on("sendingmultiple", function () {});
+                    this.on("successmultiple", function (files, response) {});
+                    this.on("errormultiple", function (files, response) {});
+
+                }
+
+            }
+
+        });
+    </script>
+
+    <script type="text/javascript" src="http://tajs.qq.com/stats?sId=9051096" charset="UTF-8"></script>
+    <!--统计代码，可删除-->
+
+
+
+</body>
+
+</html>

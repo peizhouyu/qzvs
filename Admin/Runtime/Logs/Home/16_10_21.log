@@ -1,0 +1,1458 @@
+[ 2016-10-21T19:48:26+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001506s ]
+
+[ 2016-10-21T19:53:27+08:00 ] 180.163.2.116 /qzvs/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+
+[ 2016-10-21T19:53:27+08:00 ] 180.163.2.116 /qzvs/admin.php/Home/Index/login/0/cate_id%3D%3E2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001413s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001013s ]
+
+[ 2016-10-21T19:56:28+08:00 ] 101.226.61.207 /qzvs/admin.php/Home/Index/login/0/cate_id%3D%3E2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001487s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001006s ]
+
+[ 2016-10-21T20:36:19+08:00 ] 101.7.159.137 /qzvs/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001142s ]
+
+[ 2016-10-21T20:36:19+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Index/login/0/cate_id%3D%3E2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001038s ]
+
+[ 2016-10-21T20:36:34+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001512s ]
+SQL: SHOW COLUMNS FROM `qzvideo_admin` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `qzvideo_admin` WHERE `username` = '小萌萌' AND `password` = '439a28c324f83bab1c64336cd95a31e9' LIMIT 1   [ RunTime:0.0236s ]
+SQL: UPDATE `qzvideo_admin` SET `lastloginip`='101.7.159.137',`lastlogintime`='16-10-21 08:10:34' WHERE `username` = '小萌萌' AND `password` = '439a28c324f83bab1c64336cd95a31e9' AND `userid` = 73 [ RunTime:0.0264s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001455s ]
+
+[ 2016-10-21T20:36:37+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+SQL: SHOW COLUMNS FROM `qzvideo_admin_role` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `qzvideo_admin_role`  [ RunTime:0.0129s ]
+SQL: SHOW COLUMNS FROM `qzvideo_admin` [ RunTime:0.0243s ]
+SQL: SELECT * FROM `qzvideo_admin` WHERE `username` = '小萌萌' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant 超级管理员 - assumed '超级管理员' D:\xampp\htdocs\qzvs\Admin\Home\Controller\IndexController.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant 幻灯管理员 - assumed '幻灯管理员' D:\xampp\htdocs\qzvs\Admin\Home\Controller\IndexController.class.php 第 36 行.
+NOTIC: [8] Use of undefined constant 内容管理员 - assumed '内容管理员' D:\xampp\htdocs\qzvs\Admin\Home\Controller\IndexController.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant index_content - assumed 'index_content' D:\xampp\htdocs\qzvs\Admin\Home\Controller\IndexController.class.php 第 40 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001431s ]
+
+[ 2016-10-21T20:36:38+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Index/index_v1.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012375s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001474s ]
+
+[ 2016-10-21T20:37:32+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/VideoFile/VideoFileList.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+SQL: SHOW COLUMNS FROM `qzvideo_file` [ RunTime:0.0266s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_file` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_file` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011659s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001211s ]
+
+[ 2016-10-21T20:37:47+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/VideoFile/Addvideo.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009164s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001007s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001071s ]
+
+[ 2016-10-21T20:38:18+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/Showlist/type/weifangtan.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001924s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `qzvideo_category` WHERE (  `letter` = 'weifangtan' OR `catname` = 'weifangtan' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0221s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = 27 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = 27 ORDER BY id desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015430s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001929s ]
+
+[ 2016-10-21T20:38:18+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/Showlist/type/_JSURL__/bootstrap.min.js?v=3.3.5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `qzvideo_category` WHERE (  `letter` = '_JSURL__' OR `catname` = '_JSURL__' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0172s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = null ORDER BY id desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001119s ]
+
+[ 2016-10-21T20:38:18+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/Showlist/type/_JSURL__/plugins/peity/jquery.peity.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001659s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `qzvideo_category` WHERE (  `letter` = '_JSURL__' OR `catname` = '_JSURL__' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0102s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = null ORDER BY id desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001678s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002691s ]
+
+[ 2016-10-21T20:38:18+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/Showlist/type/_JSURL__/content.js?v=1.0.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0241s ]
+SQL: SELECT * FROM `qzvideo_category` WHERE (  `letter` = '_JSURL__' OR `catname` = '_JSURL__' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0124s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = null ORDER BY id desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001557s ]
+
+[ 2016-10-21T20:38:18+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/Showlist/type/_JSURL__/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `qzvideo_category` WHERE (  `letter` = '_JSURL__' OR `catname` = '_JSURL__' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0105s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = null ORDER BY id desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001621s ]
+
+[ 2016-10-21T20:38:18+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/Showlist/type/_JSURL__/demo/peity-demo.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `qzvideo_category` WHERE (  `letter` = '_JSURL__' OR `catname` = '_JSURL__' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0152s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = null ORDER BY id desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013710s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001528s ]
+
+[ 2016-10-21T20:38:20+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/Showlist/type/weidianying.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `qzvideo_category` WHERE (  `letter` = 'weidianying' OR `catname` = 'weidianying' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0159s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = 25 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = 25 ORDER BY id desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001505s ]
+
+[ 2016-10-21T20:38:20+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/Showlist/type/_JSURL__/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003919s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `qzvideo_category` WHERE (  `letter` = '_JSURL__' OR `catname` = '_JSURL__' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0116s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = null ORDER BY id desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001405s ]
+
+[ 2016-10-21T20:38:20+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/Showlist/type/_JSURL__/bootstrap.min.js?v=3.3.5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007275s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `qzvideo_category` WHERE (  `letter` = '_JSURL__' OR `catname` = '_JSURL__' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0117s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = null ORDER BY id desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001070s ]
+
+[ 2016-10-21T20:38:20+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/Showlist/type/_JSURL__/content.js?v=1.0.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005416s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0276s ]
+SQL: SELECT * FROM `qzvideo_category` WHERE (  `letter` = '_JSURL__' OR `catname` = '_JSURL__' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0146s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = null ORDER BY id desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000975s ]
+
+[ 2016-10-21T20:38:20+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/Showlist/type/_JSURL__/demo/peity-demo.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002610s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `qzvideo_category` WHERE (  `letter` = '_JSURL__' OR `catname` = '_JSURL__' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0141s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = null ORDER BY id desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000947s ]
+
+[ 2016-10-21T20:38:20+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/Showlist/type/_JSURL__/plugins/peity/jquery.peity.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001280s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `qzvideo_category` WHERE (  `letter` = '_JSURL__' OR `catname` = '_JSURL__' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = null ORDER BY id desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010669s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001563s ]
+
+[ 2016-10-21T20:38:54+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+SQL: SHOW COLUMNS FROM `qzvideo_admin_role` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `qzvideo_admin_role`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qzvideo_admin` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `qzvideo_admin` WHERE `username` = '小萌萌' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant 超级管理员 - assumed '超级管理员' D:\xampp\htdocs\qzvs\Admin\Home\Controller\IndexController.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant 幻灯管理员 - assumed '幻灯管理员' D:\xampp\htdocs\qzvs\Admin\Home\Controller\IndexController.class.php 第 36 行.
+NOTIC: [8] Use of undefined constant 内容管理员 - assumed '内容管理员' D:\xampp\htdocs\qzvs\Admin\Home\Controller\IndexController.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant index_content - assumed 'index_content' D:\xampp\htdocs\qzvs\Admin\Home\Controller\IndexController.class.php 第 40 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013563s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000983s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001242s ]
+
+[ 2016-10-21T20:38:55+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Index/index_v1.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018706s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018786s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001855s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001932s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-10-21T20:39:01+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/Showlist/type/weishenghuo.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `qzvideo_category` WHERE (  `letter` = 'weishenghuo' OR `catname` = 'weishenghuo' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = 23 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = 23 ORDER BY id desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013475s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001656s ]
+
+[ 2016-10-21T20:39:01+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/Showlist/type/_JSURL__/plugins/peity/jquery.peity.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0213s ]
+SQL: SELECT * FROM `qzvideo_category` WHERE (  `letter` = '_JSURL__' OR `catname` = '_JSURL__' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0239s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = null LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = null ORDER BY id desc LIMIT 0,10   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005788s ]
+
+[ 2016-10-21T20:39:02+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/Showlist/type/_JSURL__/content.js?v=1.0.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `qzvideo_category` WHERE (  `letter` = '_JSURL__' OR `catname` = '_JSURL__' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0136s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = null ORDER BY id desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009919s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000941s ]
+
+[ 2016-10-21T20:39:02+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/Showlist/type/_JSURL__/demo/peity-demo.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003903s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `qzvideo_category` WHERE (  `letter` = '_JSURL__' OR `catname` = '_JSURL__' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0123s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = null ORDER BY id desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2016-10-21T20:39:02+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/Showlist/type/_JSURL__/bootstrap.min.js?v=3.3.5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003397s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `qzvideo_category` WHERE (  `letter` = '_JSURL__' OR `catname` = '_JSURL__' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0138s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = null ORDER BY id desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001565s ]
+
+[ 2016-10-21T20:39:02+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/Showlist/type/_JSURL__/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001603s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `qzvideo_category` WHERE (  `letter` = '_JSURL__' OR `catname` = '_JSURL__' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0116s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = null ORDER BY id desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001334s ]
+
+[ 2016-10-21T20:41:22+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/Change/id/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001733s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0249s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `id` = '38' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `qzvideo_lable`  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant change - assumed 'change' D:\xampp\htdocs\qzvs\Admin\Home\Controller\VideoController.class.php 第 290 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+NOTIC: [8] Undefined index: vedio_time D:\xampp\htdocs\qzvs\Admin\Runtime\Cache\Home\3e12bbe7a3d1063653f59358780268f3.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001031s ]
+
+[ 2016-10-21T20:41:23+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/Change/id/_/qzvs/Public/asset/js/demo/form-validate-demo.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `id` = '_' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `qzvideo_lable`  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant change - assumed 'change' D:\xampp\htdocs\qzvs\Admin\Home\Controller\VideoController.class.php 第 290 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2016-10-21T20:42:56+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/Change.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001209s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `qzvideo_category` WHERE `catname` = '微生活' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2] move_uploaded_file(Public/upload/img/未标题-2.jpg): failed to open stream: Invalid argument D:\xampp\htdocs\qzvs\Admin\Home\Controller\VideoController.class.php 第 306 行.
+NOTIC: [2] move_uploaded_file(): Unable to move 'D:\xampp\tmp\phpD962.tmp' to 'Public/upload/img/未标题-2.jpg' D:\xampp\htdocs\qzvs\Admin\Home\Controller\VideoController.class.php 第 306 行.
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0126s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\qzvs\ThinkPHP\Library\Think\Db\Driver.class.php 第 373 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\qzvs\ThinkPHP\Library\Think\Db\Driver.class.php 第 373 行.
+SQL: UPDATE `qzvideo_weishi` SET `thumb`='http://123.57.30.41/qzvs/Public/upload/img/未标题-2.jpg',`title`='怀疑人生的小学生题目',`keywords`='小学生',`director`='李克',`performer`='',`content`='',`description`='',`inputtime`='1477053776',`teamdes`='',`guest`='',`catid`='23',`lable`='',`url`='' WHERE `id` = '38' [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: mapping_name D:\xampp\htdocs\qzvs\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SHOW COLUMNS FROM `qzvideo_keyword` [ RunTime:0.0158s ]
+SQL: UPDATE `qzvideo_keyword` SET `keydata`='怀疑人生的小学生题目 微生活  小学生',`creattime`='2016-10-21' WHERE `videoid` = '38' [ RunTime:0.0255s ]
+NOTIC: [8] Undefined index: mapping_name D:\xampp\htdocs\qzvs\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SHOW COLUMNS FROM `qzvideo_hits` [ RunTime:0.0148s ]
+SQL: UPDATE `qzvideo_hits` SET `videotitle`='怀疑人生的小学生题目',`catid`='23',`updatetime`='16-10-21' WHERE `videoid` = '38' [ RunTime:0.0049s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009504s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001740s ]
+
+[ 2016-10-21T20:42:58+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/Showlist/type/%E5%BE%AE%E7%94%9F%E6%B4%BB.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `qzvideo_category` WHERE (  `letter` = '微生活' OR `catname` = '微生活' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0136s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = 23 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = 23 ORDER BY id desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010784s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001107s ]
+
+[ 2016-10-21T20:42:59+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/Showlist/type/_JSURL__/plugins/peity/jquery.peity.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001970s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0221s ]
+SQL: SELECT * FROM `qzvideo_category` WHERE (  `letter` = '_JSURL__' OR `catname` = '_JSURL__' ) LIMIT 1   [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0211s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = null ORDER BY id desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001160s ]
+
+[ 2016-10-21T20:42:59+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/Showlist/type/_JSURL__/bootstrap.min.js?v=3.3.5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001942s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `qzvideo_category` WHERE (  `letter` = '_JSURL__' OR `catname` = '_JSURL__' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0135s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = null ORDER BY id desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000919s ]
+
+[ 2016-10-21T20:42:59+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/Showlist/type/_JSURL__/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `qzvideo_category` WHERE (  `letter` = '_JSURL__' OR `catname` = '_JSURL__' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0176s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = null ORDER BY id desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008831s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000902s ]
+
+[ 2016-10-21T20:42:59+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/Showlist/type/_JSURL__/demo/peity-demo.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `qzvideo_category` WHERE (  `letter` = '_JSURL__' OR `catname` = '_JSURL__' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0108s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = null ORDER BY id desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000800s ]
+
+[ 2016-10-21T20:42:59+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/Showlist/type/_JSURL__/content.js?v=1.0.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001830s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `qzvideo_category` WHERE (  `letter` = '_JSURL__' OR `catname` = '_JSURL__' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0131s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = null ORDER BY id desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011148s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001275s ]
+
+[ 2016-10-21T20:44:08+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/Del/id/38/catid/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `qzvideo_category` WHERE `catid` = 23 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 23 AND `id` = '38' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] unlink(D:/phpStudy/WWW/qzvs/Public/upload/img/-2.jpg): No such file or directory D:\xampp\htdocs\qzvs\Admin\Home\Controller\VideoController.class.php 第 414 行.
+NOTIC: [2] unlink(D:/phpStudy/WWW/qzvs/Public/upload/img/img): No such file or directory D:\xampp\htdocs\qzvs\Admin\Home\Controller\VideoController.class.php 第 416 行.
+NOTIC: [2] unlink(D:/phpStudy/WWW/qzvs/Public/upload/img/img): No such file or directory D:\xampp\htdocs\qzvs\Admin\Home\Controller\VideoController.class.php 第 418 行.
+NOTIC: [2] unlink(D:/phpStudy/WWW/qzvs/Public/upload/img/img): No such file or directory D:\xampp\htdocs\qzvs\Admin\Home\Controller\VideoController.class.php 第 420 行.
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0124s ]
+SQL: DELETE FROM `qzvideo_weishi` WHERE `catid` = 23 AND `id` = '38' [ RunTime:0.0248s ]
+NOTIC: [8] Undefined index: mapping_name D:\xampp\htdocs\qzvs\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SHOW COLUMNS FROM `qzvideo_keyword` [ RunTime:0.0319s ]
+SQL: DELETE FROM `qzvideo_keyword` WHERE `videoid` = '38' [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_name D:\xampp\htdocs\qzvs\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SHOW COLUMNS FROM `qzvideo_hits` [ RunTime:0.0180s ]
+SQL: DELETE FROM `qzvideo_hits` WHERE `videoid` = '38' [ RunTime:0.0051s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001634s ]
+
+[ 2016-10-21T20:44:10+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/Showlist/type/weishenghuo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001199s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `qzvideo_category` WHERE (  `letter` = 'weishenghuo' OR `catname` = 'weishenghuo' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = 23 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = 23 ORDER BY id desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001058s ]
+
+[ 2016-10-21T20:44:10+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/Showlist/type/_JSURL__/bootstrap.min.js?v=3.3.5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010189s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0328s ]
+SQL: SELECT * FROM `qzvideo_category` WHERE (  `letter` = '_JSURL__' OR `catname` = '_JSURL__' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = null ORDER BY id desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011131s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001159s ]
+
+[ 2016-10-21T20:44:10+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/Showlist/type/_JSURL__/plugins/peity/jquery.peity.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007533s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0401s ]
+SQL: SELECT * FROM `qzvideo_category` WHERE (  `letter` = '_JSURL__' OR `catname` = '_JSURL__' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0126s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = null ORDER BY id desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012519s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001469s ]
+
+[ 2016-10-21T20:44:10+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/Showlist/type/_JSURL__/demo/peity-demo.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002143s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `qzvideo_category` WHERE (  `letter` = '_JSURL__' OR `catname` = '_JSURL__' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0189s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = null ORDER BY id desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000757s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2016-10-21T20:44:10+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/Showlist/type/_JSURL__/content.js?v=1.0.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001116s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `qzvideo_category` WHERE (  `letter` = '_JSURL__' OR `catname` = '_JSURL__' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0148s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = null ORDER BY id desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000993s ]
+
+[ 2016-10-21T20:44:10+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/Showlist/type/_JSURL__/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `qzvideo_category` WHERE (  `letter` = '_JSURL__' OR `catname` = '_JSURL__' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0103s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = null ORDER BY id desc LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001495s ]
+
+[ 2016-10-21T20:44:16+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/VideoFile/VideoFileList.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+SQL: SHOW COLUMNS FROM `qzvideo_file` [ RunTime:0.0299s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_file` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_file` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001178s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001252s ]
+
+[ 2016-10-21T20:44:32+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/VideoFile/VideoFileDel/id/64/filename/20161013045206vsJ1751N3umc2.mp4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001728s ]
+SQL: SHOW COLUMNS FROM `qzvideo_file` [ RunTime:0.0108s ]
+SQL: DELETE FROM `qzvideo_file` WHERE `id` = 64 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007804s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2016-10-21T20:44:34+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/VideoFile/VideoFileList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+SQL: SHOW COLUMNS FROM `qzvideo_file` [ RunTime:0.0105s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_file` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_file` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2016-10-21T20:44:35+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/Add.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_file` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `qzvideo_file` WHERE `createtime` = '2016-10-21' ORDER BY id desc LIMIT 8   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `qzvideo_lable`  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant add - assumed 'add' D:\xampp\htdocs\qzvs\Admin\Home\Controller\VideoController.class.php 第 85 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+NOTIC: [8] Undefined variable: info D:\xampp\htdocs\qzvs\Admin\Runtime\Cache\Home\8d1e6f506ffe6fd6422c219b9f016813.php 第 115 行.
+NOTIC: [8] Undefined variable: info D:\xampp\htdocs\qzvs\Admin\Runtime\Cache\Home\8d1e6f506ffe6fd6422c219b9f016813.php 第 122 行.
+NOTIC: [8] Undefined variable: info D:\xampp\htdocs\qzvs\Admin\Runtime\Cache\Home\8d1e6f506ffe6fd6422c219b9f016813.php 第 129 行.
+NOTIC: [8] Undefined variable: info D:\xampp\htdocs\qzvs\Admin\Runtime\Cache\Home\8d1e6f506ffe6fd6422c219b9f016813.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012320s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000663s ]
+
+[ 2016-10-21T20:44:35+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/_/qzvs/Public/asset/js/demo/form-validate-demo.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+ERR: 非法操作:_
+
+[ 2016-10-21T20:45:04+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/VideoFile/Addvideo.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2016-10-21T20:46:18+08:00 ] ::1 /qzvs/admin.php/Home/VideoFile/filewrite?name=怀疑人生.mp4&cryptname=20161021024617vsWCh9bpE71N2.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001525s ]
+SQL: SHOW COLUMNS FROM `qzvideo_file` [ RunTime:0.0157s ]
+SQL: INSERT INTO `qzvideo_file` (`filename`,`cryptname`,`createtime`) VALUES ('怀疑人生.mp4','20161021024617vsWCh9bpE71N2.mp4','2016-10-21') [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001084s ]
+
+[ 2016-10-21T21:24:01+08:00 ] ::1 /qzvs/admin.php/Home/VideoFile/filewrite?name=怀疑人生.mp4&cryptname=20161021032401vsWCh9bpE71N2.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001582s ]
+SQL: SHOW COLUMNS FROM `qzvideo_file` [ RunTime:0.0117s ]
+SQL: INSERT INTO `qzvideo_file` (`filename`,`cryptname`,`createtime`) VALUES ('怀疑人生.mp4','20161021032401vsWCh9bpE71N2.mp4','2016-10-21') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001844s ]
+
+[ 2016-10-21T21:24:35+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+SQL: SHOW COLUMNS FROM `qzvideo_admin_role` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `qzvideo_admin_role`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qzvideo_admin` [ RunTime:0.0277s ]
+SQL: SELECT * FROM `qzvideo_admin` WHERE `username` = '小萌萌' LIMIT 1   [ RunTime:0.0205s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant 超级管理员 - assumed '超级管理员' D:\xampp\htdocs\qzvs\Admin\Home\Controller\IndexController.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant 幻灯管理员 - assumed '幻灯管理员' D:\xampp\htdocs\qzvs\Admin\Home\Controller\IndexController.class.php 第 36 行.
+NOTIC: [8] Use of undefined constant 内容管理员 - assumed '内容管理员' D:\xampp\htdocs\qzvs\Admin\Home\Controller\IndexController.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant index_content - assumed 'index_content' D:\xampp\htdocs\qzvs\Admin\Home\Controller\IndexController.class.php 第 40 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2016-10-21T21:24:36+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Index/index_v1.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2016-10-21T21:24:40+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/Add.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_file` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `qzvideo_file` WHERE `createtime` = '2016-10-21' ORDER BY id desc LIMIT 8   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `qzvideo_lable`  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant add - assumed 'add' D:\xampp\htdocs\qzvs\Admin\Home\Controller\VideoController.class.php 第 85 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+NOTIC: [8] Undefined variable: info D:\xampp\htdocs\qzvs\Admin\Runtime\Cache\Home\8d1e6f506ffe6fd6422c219b9f016813.php 第 115 行.
+NOTIC: [8] Undefined variable: info D:\xampp\htdocs\qzvs\Admin\Runtime\Cache\Home\8d1e6f506ffe6fd6422c219b9f016813.php 第 122 行.
+NOTIC: [8] Undefined variable: info D:\xampp\htdocs\qzvs\Admin\Runtime\Cache\Home\8d1e6f506ffe6fd6422c219b9f016813.php 第 129 行.
+NOTIC: [8] Undefined variable: info D:\xampp\htdocs\qzvs\Admin\Runtime\Cache\Home\8d1e6f506ffe6fd6422c219b9f016813.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000868s ]
+
+[ 2016-10-21T21:24:41+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/_/qzvs/Public/asset/js/demo/form-validate-demo.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+ERR: 非法操作:_
+
+[ 2016-10-21T21:25:21+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/Add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `qzvideo_category` WHERE `catname` = '微生活' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] move_uploaded_file(Public/upload/img/未标题-2.jpg): failed to open stream: Invalid argument D:\xampp\htdocs\qzvs\Admin\Home\Controller\VideoController.class.php 第 99 行.
+NOTIC: [2] move_uploaded_file(): Unable to move 'D:\xampp\tmp\phpAF85.tmp' to 'Public/upload/img/未标题-2.jpg' D:\xampp\htdocs\qzvs\Admin\Home\Controller\VideoController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0139s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\qzvs\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\qzvs\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `qzvideo_weishi` (`title`,`keywords`,`director`,`performer`,`content`,`description`,`inputtime`,`teamdes`,`guest`,`length`,`catid`,`thumb`,`bigpic`,`top`,`authorthum`,`username`,`url`,`lable`) VALUES ('怀疑人生的小学生题目','','','','','','1477056321','','','05：36','23','http://123.57.30.41/qzvs/Public/upload/img/未标题-2.jpg','http://123.57.30.41/qzvs/Public/upload/img/','http://123.57.30.41/qzvs/Public/upload/img/','http://123.57.30.41/qzvs/Public/upload/img/','小萌萌','20161021032401vsWCh9bpE71N2.mp4','') [ RunTime:0.0181s ]
+NOTIC: [8] Undefined index: mapping_name D:\xampp\htdocs\qzvs\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SHOW COLUMNS FROM `qzvideo_keyword` [ RunTime:0.0109s ]
+SQL: INSERT INTO `qzvideo_keyword` (`keydata`,`creattime`,`videoid`) VALUES ('怀疑人生的小学生题目 微生活  ','2016-10-21','49') [ RunTime:0.0051s ]
+NOTIC: [8] Undefined index: mapping_name D:\xampp\htdocs\qzvs\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SHOW COLUMNS FROM `qzvideo_hits` [ RunTime:0.0168s ]
+SQL: INSERT INTO `qzvideo_hits` (`videotitle`,`catid`,`updatetime`,`videoid`) VALUES ('怀疑人生的小学生题目','23','16-10-21','49') [ RunTime:0.0056s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000697s ]
+
+[ 2016-10-21T21:25:23+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/Add.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_file` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `qzvideo_file` WHERE `createtime` = '2016-10-21' ORDER BY id desc LIMIT 8   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `qzvideo_lable`  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant add - assumed 'add' D:\xampp\htdocs\qzvs\Admin\Home\Controller\VideoController.class.php 第 85 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+NOTIC: [8] Undefined variable: info D:\xampp\htdocs\qzvs\Admin\Runtime\Cache\Home\8d1e6f506ffe6fd6422c219b9f016813.php 第 115 行.
+NOTIC: [8] Undefined variable: info D:\xampp\htdocs\qzvs\Admin\Runtime\Cache\Home\8d1e6f506ffe6fd6422c219b9f016813.php 第 122 行.
+NOTIC: [8] Undefined variable: info D:\xampp\htdocs\qzvs\Admin\Runtime\Cache\Home\8d1e6f506ffe6fd6422c219b9f016813.php 第 129 行.
+NOTIC: [8] Undefined variable: info D:\xampp\htdocs\qzvs\Admin\Runtime\Cache\Home\8d1e6f506ffe6fd6422c219b9f016813.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000703s ]
+
+[ 2016-10-21T21:25:23+08:00 ] 101.7.159.137 /qzvs/admin.php/Home/Video/_/qzvs/Public/asset/js/demo/form-validate-demo.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+ERR: 非法操作:_
+

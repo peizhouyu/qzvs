@@ -1,0 +1,54 @@
+.dvitemContent .dvImage{
+	width: 100%;
+	height: 80%;	
+}
+.dvList .dvListBox li{
+	width: 20%;
+}
+.dvitemContent .dvInfo .dvTitle .dvHeadImg,.dvitemContent .dvInfo .dvInfoBox,.dvitemContent .dvInfo .dataInfo{
+	display: none;
+}
+.dvitemContent .dvInfo .dvTitle{
+	float: none;
+}
+.dvitemContent .dvInfo .dvTitle h3{ 
+	font-size: 14px;
+	color: #333333;
+	font-weight: normal;	
+}
+.dvitemContent .dvInfo .dvTitle h3,.dvitemContent .dvInfo .dvTitle{
+	border-bottom: none;	
+}
+
+#dv-list{
+	background: #FFFFFF;
+	color: #999999;
+}
+#dv-tile{
+	background: rgb(37,170,227);
+    color: #ffffff;
+}
+@media only screen and (max-width: 1024px) {
+	.dvList .dvListBox li{
+		width: 25%;
+		padding-top: 25%;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.dvList .dvListBox li{
+		width: 33.3333%;
+		padding-top:30%;
+	}
+}
+@media only screen and (max-width: 580px) {
+	.dvList .dvListBox li{
+		width: 50%;
+		padding-top:45%;
+	}
+}
+@media only screen and (max-width: 420px) {
+	.dvList .dvListBox li{
+		width: 100%;
+		padding-top:80%;
+	}
+}

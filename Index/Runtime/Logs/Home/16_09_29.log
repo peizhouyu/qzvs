@@ -1,0 +1,1396 @@
+[ 2016-09-29T00:04:31+08:00 ] 66.249.69.207 /qzvs/index.php/Home/Search/SearchList/catid/29/type/1/time/week.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0292s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = 29 AND ( `inputtime` > '2016-09-22' AND `inputtime` <= '2016-09-29'  ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = 29 AND ( `inputtime` > '2016-09-22' AND `inputtime` <= '2016-09-29'  ) ORDER BY id desc LIMIT 0,15   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 29 AND ( `inputtime` > '2016-09-22' AND `inputtime` <= '2016-09-29'  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微生活' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微电影' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微资讯' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微访谈' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微课堂' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '生涯导航' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微分享' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '素材库' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微专题' LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_special` [ RunTime:0.0262s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '印象大学城' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '梦想在路上' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `catname` = '生涯导航' LIMIT 6   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000321s ]
+NOTIC: [8] Undefined variable: hotkey D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\9e2d2be700d2f76af846d9e7d29ff429.php 第 299 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033671s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001353s ]
+
+[ 2016-09-29T00:32:37+08:00 ] 45.32.250.140 /qzvs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `banner` WHERE `if_valid` = '有效' ORDER BY slide_order desc LIMIT 9   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_special` [ RunTime:0.0179s ]
+SQL: SELECT * FROM `qzvideo_special` ORDER BY id desc LIMIT 7   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 26 ORDER BY id desc LIMIT 6   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 26 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 26 AND `up` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 23 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 23 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 27 ORDER BY id desc LIMIT 6   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 27 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 27 AND `up` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 25 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 25 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 28 ORDER BY id desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 28 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 28 AND `up` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 29 ORDER BY id desc LIMIT 5   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 29 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 30 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 30 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 31 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0189s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微生活' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微电影' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微资讯' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微访谈' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微课堂' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '生涯导航' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微分享' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '素材库' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_search` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `qzvideo_search` ORDER BY searchnums desc LIMIT 5   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\xampp\htdocs\qzvs\Index\Home\Controller\IndexController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000407s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000506s ]
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 409 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 410 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 412 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 413 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 415 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 416 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 418 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 419 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 421 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 422 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 424 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 425 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 442 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 442 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 443 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 443 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 444 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 444 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 445 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 445 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 446 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 446 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 447 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 447 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 448 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 448 行.
+NOTIC: [8] Undefined offset: 12 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 449 行.
+NOTIC: [8] Undefined offset: 12 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 449 行.
+NOTIC: [8] Undefined offset: 13 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 450 行.
+NOTIC: [8] Undefined offset: 13 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 450 行.
+NOTIC: [8] Undefined variable: wzx D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 468 行.
+NOTIC: [8] Undefined variable: wzx D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 469 行.
+NOTIC: [8] Undefined variable: wzx D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 470 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 523 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 524 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 526 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 527 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 529 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 530 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 532 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 533 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 535 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 536 行.
+NOTIC: [8] Undefined index: descipline D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 642 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049663s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001248s ]
+
+[ 2016-09-29T00:33:00+08:00 ] 45.32.250.140 /qzvs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `banner` WHERE `if_valid` = '有效' ORDER BY slide_order desc LIMIT 9   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_special` [ RunTime:0.0163s ]
+SQL: SELECT * FROM `qzvideo_special` ORDER BY id desc LIMIT 7   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 26 ORDER BY id desc LIMIT 6   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 26 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 26 AND `up` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 23 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 23 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 27 ORDER BY id desc LIMIT 6   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 27 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 27 AND `up` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 25 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 25 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 28 ORDER BY id desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 28 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 28 AND `up` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 29 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 29 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 30 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 30 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 31 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微生活' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微电影' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微资讯' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微访谈' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微课堂' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '生涯导航' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微分享' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '素材库' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_search` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `qzvideo_search` ORDER BY searchnums desc LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\xampp\htdocs\qzvs\Index\Home\Controller\IndexController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000397s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000483s ]
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 409 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 410 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 412 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 413 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 415 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 416 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 418 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 419 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 421 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 422 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 424 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 425 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 442 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 442 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 443 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 443 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 444 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 444 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 445 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 445 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 446 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 446 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 447 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 447 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 448 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 448 行.
+NOTIC: [8] Undefined offset: 12 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 449 行.
+NOTIC: [8] Undefined offset: 12 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 449 行.
+NOTIC: [8] Undefined offset: 13 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 450 行.
+NOTIC: [8] Undefined offset: 13 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 450 行.
+NOTIC: [8] Undefined variable: wzx D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 468 行.
+NOTIC: [8] Undefined variable: wzx D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 469 行.
+NOTIC: [8] Undefined variable: wzx D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 470 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 523 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 524 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 526 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 527 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 529 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 530 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 532 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 533 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 535 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 536 行.
+NOTIC: [8] Undefined index: descipline D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 642 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001327s ]
+
+[ 2016-09-29T00:34:28+08:00 ] 45.32.250.140 /qzvs/index.php/Home/Video/showlist/catid/25.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0153s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = 25 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = 25 ORDER BY id desc LIMIT 0,8   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 25 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0194s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微生活' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微电影' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微资讯' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微访谈' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微课堂' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '生涯导航' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微分享' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '素材库' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微专题' LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_special` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '印象大学城' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '梦想在路上' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qzvideo_search` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `qzvideo_search` ORDER BY searchnums desc LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `catname` = '微电影' LIMIT 6   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant weidianying - assumed 'weidianying' D:\xampp\htdocs\qzvs\Index\Home\Controller\VideoController.class.php 第 87 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+NOTIC: [8] Undefined index: Director D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\d31616c5061ad66a24acc9002506b21d.php 第 319 行.
+NOTIC: [8] Undefined index: Director D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\d31616c5061ad66a24acc9002506b21d.php 第 319 行.
+NOTIC: [8] Undefined index: Director D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\d31616c5061ad66a24acc9002506b21d.php 第 319 行.
+NOTIC: [8] Undefined index: Director D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\d31616c5061ad66a24acc9002506b21d.php 第 319 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001357s ]
+
+[ 2016-09-29T01:20:17+08:00 ] 66.249.69.207 /qzvs/index.php/Home/Search/SearchList/catid/29/type/2/hot/hit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0123s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = 29 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = 29 ORDER BY hits desc LIMIT 0,15   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 29 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微生活' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微电影' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微资讯' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微访谈' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微课堂' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '生涯导航' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微分享' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '素材库' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微专题' LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_special` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '印象大学城' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '梦想在路上' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `catname` = '生涯导航' LIMIT 6   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000288s ]
+NOTIC: [8] Undefined variable: hotkey D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\9e2d2be700d2f76af846d9e7d29ff429.php 第 299 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001310s ]
+
+[ 2016-09-29T02:36:05+08:00 ] 66.249.69.207 /qzvs/index.php/Home/Search/SearchList/catid/30/type/1/time/today.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0151s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = 30 AND ( `inputtime` > '2016-09-28' AND `inputtime` <= '2016-09-29'  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = 30 AND ( `inputtime` > '2016-09-28' AND `inputtime` <= '2016-09-29'  ) ORDER BY id desc LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 30 AND ( `inputtime` > '2016-09-28' AND `inputtime` <= '2016-09-29'  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微生活' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微电影' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微资讯' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微访谈' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微课堂' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '生涯导航' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微分享' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '素材库' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微专题' LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_special` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '印象大学城' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '梦想在路上' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `catname` = '微分享' LIMIT 6   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+NOTIC: [8] Undefined variable: hotkey D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\d52a454fa1d4c36699960c1332460379.php 第 298 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001849s ]
+
+[ 2016-09-29T02:37:10+08:00 ] 217.103.97.99 /qzvs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001204s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `banner` WHERE `if_valid` = '有效' ORDER BY slide_order desc LIMIT 9   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_special` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `qzvideo_special` ORDER BY id desc LIMIT 7   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 26 ORDER BY id desc LIMIT 6   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 26 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 26 AND `up` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 23 ORDER BY id desc LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 23 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 27 ORDER BY id desc LIMIT 6   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 27 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 27 AND `up` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 25 ORDER BY id desc LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 25 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 28 ORDER BY id desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 28 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 28 AND `up` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 29 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 29 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 30 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 30 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 31 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0187s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微生活' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微电影' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微资讯' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微访谈' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微课堂' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '生涯导航' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微分享' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '素材库' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_search` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `qzvideo_search` ORDER BY searchnums desc LIMIT 5   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\xampp\htdocs\qzvs\Index\Home\Controller\IndexController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000523s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000644s ]
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 409 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 410 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 412 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 413 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 415 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 416 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 418 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 419 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 421 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 422 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 424 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 425 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 442 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 442 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 443 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 443 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 444 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 444 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 445 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 445 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 446 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 446 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 447 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 447 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 448 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 448 行.
+NOTIC: [8] Undefined offset: 12 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 449 行.
+NOTIC: [8] Undefined offset: 12 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 449 行.
+NOTIC: [8] Undefined offset: 13 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 450 行.
+NOTIC: [8] Undefined offset: 13 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 450 行.
+NOTIC: [8] Undefined variable: wzx D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 468 行.
+NOTIC: [8] Undefined variable: wzx D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 469 行.
+NOTIC: [8] Undefined variable: wzx D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 470 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 523 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 524 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 526 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 527 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 529 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 530 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 532 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 533 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 535 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 536 行.
+NOTIC: [8] Undefined index: descipline D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 642 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001172s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001243s ]
+
+[ 2016-09-29T03:51:51+08:00 ] 66.249.69.206 /qzvs/index.php/Home/Search/SearchList/catid/30/type/2/hot/zan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0119s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = 30 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = 30 ORDER BY zan desc LIMIT 0,15   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 30 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微生活' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微电影' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微资讯' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微访谈' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微课堂' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '生涯导航' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微分享' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '素材库' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微专题' LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_special` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '印象大学城' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '梦想在路上' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `catname` = '微分享' LIMIT 6   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+NOTIC: [8] Undefined variable: hotkey D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\d52a454fa1d4c36699960c1332460379.php 第 298 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032105s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001627s ]
+
+[ 2016-09-29T05:07:52+08:00 ] 66.249.69.207 /qzvs/index.php/Home/Search/SearchList/catid/28/type/1/time/month.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0299s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = 28 AND ( `inputtime` > '2016-08-30' AND `inputtime` <= '2016-09-29'  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = 28 AND ( `inputtime` > '2016-08-30' AND `inputtime` <= '2016-09-29'  ) ORDER BY id desc LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 28 AND ( `inputtime` > '2016-08-30' AND `inputtime` <= '2016-09-29'  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0214s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0209s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微生活' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微电影' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微资讯' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微访谈' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微课堂' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '生涯导航' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微分享' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '素材库' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微专题' LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_special` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '印象大学城' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '梦想在路上' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `catname` = '微课堂' LIMIT 6   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+NOTIC: [8] Undefined variable: hotkey D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\ed94d36d29aefbc4440978f93b52852c.php 第 298 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001257s ]
+
+[ 2016-09-29T06:23:26+08:00 ] 66.249.69.206 /qzvs/index.php/Home/Search/SearchList/catid/28/type/1/time/today.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0294s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = 28 AND ( `inputtime` > '2016-09-28' AND `inputtime` <= '2016-09-29'  ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = 28 AND ( `inputtime` > '2016-09-28' AND `inputtime` <= '2016-09-29'  ) ORDER BY id desc LIMIT 0,15   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 28 AND ( `inputtime` > '2016-09-28' AND `inputtime` <= '2016-09-29'  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微生活' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微电影' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微资讯' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微访谈' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微课堂' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '生涯导航' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微分享' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '素材库' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微专题' LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qzvideo_special` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '印象大学城' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '梦想在路上' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `catname` = '微课堂' LIMIT 6   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+NOTIC: [8] Undefined variable: hotkey D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\ed94d36d29aefbc4440978f93b52852c.php 第 298 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001648s ]
+
+[ 2016-09-29T07:39:13+08:00 ] 66.249.69.207 /qzvs/index.php/Home/Search/SearchList/catid/28/type/2/hot/hit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001170s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0264s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = 28 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = 28 ORDER BY hits desc LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 28 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微生活' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微电影' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微资讯' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微访谈' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微课堂' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '生涯导航' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微分享' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '素材库' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微专题' LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_special` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '印象大学城' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '梦想在路上' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `catname` = '微课堂' LIMIT 6   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+NOTIC: [8] Undefined variable: hotkey D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\ed94d36d29aefbc4440978f93b52852c.php 第 298 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001210s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001309s ]
+
+[ 2016-09-29T08:55:00+08:00 ] 66.249.69.211 /qzvs/index.php/Home/Index/play/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001347s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0282s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `id` = '7' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微生活' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微电影' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微资讯' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微访谈' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微课堂' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '生涯导航' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微分享' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '素材库' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微专题' LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_special` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '印象大学城' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '梦想在路上' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_category` WHERE `catid` = 26 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `qzvideo_weishi` SET `hits`='61' WHERE `id` = '7' [ RunTime:0.0229s ]
+SQL: SHOW COLUMNS FROM `qzvideo_hits` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `qzvideo_hits` WHERE `videoid` = '7' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `qzvideo_hits` SET `views`='61',`updatetime`='2016-09-29',`dayviews`='1',`weekviews`='1',`monthviews`='6' WHERE `catid` = '26' AND `videoid` = '7' [ RunTime:0.0041s ]
+SQL: SELECT * FROM `qzvideo_weishi` ORDER BY hits desc LIMIT 7   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant play - assumed 'play' D:\xampp\htdocs\qzvs\Index\Home\Controller\IndexController.class.php 第 187 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000286s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000402s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001212s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001285s ]
+
+[ 2016-09-29T10:10:51+08:00 ] 66.249.69.207 /qzvs/index.php/Home/Search/SearchList/catid/31/type/0/lable/%E6%A0%A1%E5%9B%AD%E7%B4%A0%E6%9D%90.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001840s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0343s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `lable` = '校园素材' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `lable` = '校园素材' ORDER BY hits desc LIMIT 0,15   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `lable` = '校园素材' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微生活' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微电影' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微资讯' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微访谈' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微课堂' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '生涯导航' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微分享' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '素材库' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微专题' LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_special` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '印象大学城' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '梦想在路上' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `catname` = '素材库' LIMIT 6   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+NOTIC: [8] Undefined variable: hotkey D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\e88dd8411febd58e93ecf95dbacf2adc.php 第 298 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001118s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001187s ]
+
+[ 2016-09-29T11:26:34+08:00 ] 66.249.69.207 /qzvs/index.php/Home/Search/search/type/0/lable/%E7%94%9F%E6%B6%AF%E5%AF%BC%E8%88%AA.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0321s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微生活' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微电影' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微资讯' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微访谈' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微课堂' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '生涯导航' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微分享' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '素材库' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微专题' LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qzvideo_special` [ RunTime:0.0163s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '印象大学城' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '梦想在路上' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `updh` = 1 ORDER BY lableid desc LIMIT 4   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\xampp\htdocs\qzvs\Index\Home\Controller\SearchController.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `qzvideo_keyword` [ RunTime:0.0179s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_keyword` WHERE `keydata` LIKE '%生涯导航%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qzvideo_keyword` [ RunTime:0.0396s ]
+SQL: SELECT keyword.videoid,weishi.title as title,weishi.thumb as thumb,weishi.description as description FROM qzvideo_keyword keyword,qzvideo_weishi weishi WHERE ( keyword.videoid=weishi.id ) AND `keydata` LIKE '%生涯导航%' ORDER BY keyword.keyid desc LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_keyword` WHERE `keydata` LIKE '%生涯导航%' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\xampp\htdocs\qzvs\Index\Home\Controller\SearchController.class.php 第 298 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001129s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001208s ]
+
+[ 2016-09-29T12:35:24+08:00 ] 134.249.159.113 /qzvs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0342s ]
+SQL: SELECT * FROM `banner` WHERE `if_valid` = '有效' ORDER BY slide_order desc LIMIT 9   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qzvideo_special` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `qzvideo_special` ORDER BY id desc LIMIT 7   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 26 ORDER BY id desc LIMIT 6   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 26 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 26 AND `up` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 23 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 23 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 27 ORDER BY id desc LIMIT 6   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 27 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 27 AND `up` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 25 ORDER BY id desc LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 25 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 28 ORDER BY id desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 28 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 28 AND `up` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 29 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 29 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 30 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 30 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 31 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0404s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微生活' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微电影' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微资讯' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微访谈' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微课堂' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '生涯导航' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微分享' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '素材库' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_search` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `qzvideo_search` ORDER BY searchnums desc LIMIT 5   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\xampp\htdocs\qzvs\Index\Home\Controller\IndexController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000415s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000506s ]
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 409 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 410 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 412 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 413 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 415 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 416 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 418 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 419 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 421 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 422 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 424 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 425 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 442 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 442 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 443 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 443 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 444 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 444 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 445 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 445 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 446 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 446 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 447 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 447 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 448 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 448 行.
+NOTIC: [8] Undefined offset: 12 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 449 行.
+NOTIC: [8] Undefined offset: 12 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 449 行.
+NOTIC: [8] Undefined offset: 13 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 450 行.
+NOTIC: [8] Undefined offset: 13 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 450 行.
+NOTIC: [8] Undefined variable: wzx D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 468 行.
+NOTIC: [8] Undefined variable: wzx D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 469 行.
+NOTIC: [8] Undefined variable: wzx D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 470 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 523 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 524 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 526 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 527 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 529 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 530 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 532 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 533 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 535 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 536 行.
+NOTIC: [8] Undefined index: descipline D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 642 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001151s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001221s ]
+
+[ 2016-09-29T12:42:21+08:00 ] 66.249.69.211 /qzvs/index.php/Home/Search/SearchList/catid/23/type/1/time/week.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001207s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = 23 AND ( `inputtime` > '2016-09-22' AND `inputtime` <= '2016-09-29'  ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = 23 AND ( `inputtime` > '2016-09-22' AND `inputtime` <= '2016-09-29'  ) ORDER BY id desc LIMIT 0,15   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 23 AND ( `inputtime` > '2016-09-22' AND `inputtime` <= '2016-09-29'  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微生活' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微电影' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微资讯' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微访谈' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微课堂' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '生涯导航' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微分享' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '素材库' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微专题' LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_special` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '印象大学城' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '梦想在路上' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `catname` = '微生活' LIMIT 6   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000255s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000330s ]
+NOTIC: [8] Undefined variable: hotkey D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\e74847cb57f3fd75f9a6ef09b5850b9d.php 第 300 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032692s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001294s ]
+
+[ 2016-09-29T13:02:13+08:00 ] 60.223.25.123 /qzvs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0167s ]
+SQL: SELECT * FROM `banner` WHERE `if_valid` = '有效' ORDER BY slide_order desc LIMIT 9   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_special` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `qzvideo_special` ORDER BY id desc LIMIT 7   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 26 ORDER BY id desc LIMIT 6   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 26 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 26 AND `up` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 23 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 23 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 27 ORDER BY id desc LIMIT 6   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 27 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 27 AND `up` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 25 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 25 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 28 ORDER BY id desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 28 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 28 AND `up` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 29 ORDER BY id desc LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 29 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 30 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 30 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 31 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微生活' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微电影' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微资讯' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微访谈' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微课堂' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '生涯导航' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微分享' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '素材库' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_search` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `qzvideo_search` ORDER BY searchnums desc LIMIT 5   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\xampp\htdocs\qzvs\Index\Home\Controller\IndexController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000402s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000478s ]
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 409 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 410 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 412 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 413 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 415 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 416 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 418 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 419 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 421 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 422 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 424 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 425 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 442 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 442 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 443 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 443 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 444 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 444 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 445 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 445 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 446 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 446 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 447 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 447 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 448 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 448 行.
+NOTIC: [8] Undefined offset: 12 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 449 行.
+NOTIC: [8] Undefined offset: 12 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 449 行.
+NOTIC: [8] Undefined offset: 13 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 450 行.
+NOTIC: [8] Undefined offset: 13 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 450 行.
+NOTIC: [8] Undefined variable: wzx D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 468 行.
+NOTIC: [8] Undefined variable: wzx D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 469 行.
+NOTIC: [8] Undefined variable: wzx D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 470 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 523 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 524 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 526 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 527 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 529 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 530 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 532 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 533 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 535 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 536 行.
+NOTIC: [8] Undefined index: descipline D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 642 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001202s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001305s ]
+
+[ 2016-09-29T13:58:07+08:00 ] 66.249.69.211 /qzvs/index.php/Home/Search/SearchList/catid/25/type/2/hot/hit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001287s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0151s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = 25 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = 25 ORDER BY hits desc LIMIT 0,15   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 25 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微生活' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微电影' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微资讯' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微访谈' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微课堂' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '生涯导航' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微分享' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '素材库' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微专题' LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_special` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '印象大学城' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '梦想在路上' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `catname` = '微电影' LIMIT 6   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+NOTIC: [8] Undefined variable: hotkey D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\d31616c5061ad66a24acc9002506b21d.php 第 299 行.
+NOTIC: [8] Undefined index: Director D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\d31616c5061ad66a24acc9002506b21d.php 第 319 行.
+NOTIC: [8] Undefined index: Director D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\d31616c5061ad66a24acc9002506b21d.php 第 319 行.
+NOTIC: [8] Undefined index: Director D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\d31616c5061ad66a24acc9002506b21d.php 第 319 行.
+NOTIC: [8] Undefined index: Director D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\d31616c5061ad66a24acc9002506b21d.php 第 319 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031887s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001195s ]
+
+[ 2016-09-29T14:22:52+08:00 ] 180.76.15.135 /qzvs/index.php/Home/Video/showlist/catid/26.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0143s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = 26 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = 26 ORDER BY id desc LIMIT 0,8   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 26 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微生活' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微电影' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微资讯' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微访谈' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微课堂' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '生涯导航' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微分享' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '素材库' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微专题' LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_special` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '印象大学城' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '梦想在路上' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qzvideo_search` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `qzvideo_search` ORDER BY searchnums desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `catname` = '微资讯' LIMIT 6   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant weizixun - assumed 'weizixun' D:\xampp\htdocs\qzvs\Index\Home\Controller\VideoController.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001184s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001255s ]
+
+[ 2016-09-29T15:13:55+08:00 ] 66.249.69.207 /qzvs/index.php/Home/Search/SearchList/catid/23/type/1/time/month.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0201s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = 23 AND ( `inputtime` > '2016-08-30' AND `inputtime` <= '2016-09-29'  ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = 23 AND ( `inputtime` > '2016-08-30' AND `inputtime` <= '2016-09-29'  ) ORDER BY id desc LIMIT 0,15   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 23 AND ( `inputtime` > '2016-08-30' AND `inputtime` <= '2016-09-29'  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微生活' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微电影' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微资讯' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微访谈' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微课堂' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '生涯导航' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微分享' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '素材库' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微专题' LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_special` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '印象大学城' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '梦想在路上' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `catname` = '微生活' LIMIT 6   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+NOTIC: [8] Undefined variable: hotkey D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\e74847cb57f3fd75f9a6ef09b5850b9d.php 第 300 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001187s ]
+
+[ 2016-09-29T16:29:42+08:00 ] 66.249.69.211 /qzvs/index.php/Home/Search/search/content/%E7%94%9F%E6%B4%BB.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0332s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0174s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微生活' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微电影' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微资讯' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微访谈' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微课堂' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '生涯导航' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微分享' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '素材库' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微专题' LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_special` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '印象大学城' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '梦想在路上' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `updh` = 1 ORDER BY lableid desc LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\xampp\htdocs\qzvs\Index\Home\Controller\SearchController.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `qzvideo_keyword` [ RunTime:0.0326s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_keyword` WHERE `keydata` LIKE '%生活%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qzvideo_keyword` [ RunTime:0.0156s ]
+SQL: SELECT keyword.videoid,weishi.title as title,weishi.thumb as thumb,weishi.description as description FROM qzvideo_keyword keyword,qzvideo_weishi weishi WHERE ( keyword.videoid=weishi.id ) AND `keydata` LIKE '%生活%' ORDER BY keyword.keyid desc LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_keyword` WHERE `keydata` LIKE '%生活%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_search` [ RunTime:0.0208s ]
+SQL: SELECT * FROM `qzvideo_search` WHERE `keyword` = '生活'  [ RunTime:0.0006s ]
+SQL: UPDATE `qzvideo_search` SET `searchnums`=searchnums+1 WHERE `keyword` = '生活' [ RunTime:0.0249s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\xampp\htdocs\qzvs\Index\Home\Controller\SearchController.class.php 第 298 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001206s ]
+
+[ 2016-09-29T17:45:29+08:00 ] 66.249.69.206 /qzvs/index.php/Home/Search/SearchList/catid/26/type/0/lable/%E6%97%B6%E4%BA%8B%E7%83%AD%E7%82%B9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001349s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0302s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `lable` = '时事热点' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `lable` = '时事热点' ORDER BY hits desc LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `lable` = '时事热点' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微生活' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微电影' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微资讯' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微访谈' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微课堂' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '生涯导航' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微分享' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '素材库' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微专题' LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_special` [ RunTime:0.0264s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '印象大学城' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '梦想在路上' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `catname` = '微资讯' LIMIT 6   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000356s ]
+NOTIC: [8] Undefined variable: hotkey D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\451854464d7f30cf2ecaa3b299ba7efd.php 第 299 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001190s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001294s ]
+
+[ 2016-09-29T19:01:15+08:00 ] 66.249.69.206 /qzvs/index.php/Home/Search/SearchList/catid/27/type/2/hot/zan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0292s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = 27 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = 27 ORDER BY zan desc LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 27 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微生活' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微电影' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微资讯' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微访谈' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微课堂' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '生涯导航' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微分享' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '素材库' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微专题' LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_special` [ RunTime:0.0288s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '印象大学城' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '梦想在路上' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `catname` = '微访谈' LIMIT 6   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000339s ]
+NOTIC: [8] Undefined variable: hotkey D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\dd5161509e2e8fe6d6754dbe5c104a3a.php 第 298 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001179s ]
+
+[ 2016-09-29T20:17:03+08:00 ] 66.249.69.207 /qzvs/index.php/Home/Search/SearchList/catid/31/type/2/hot/hit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0161s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = 31 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = 31 ORDER BY hits desc LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0171s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微生活' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微电影' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微资讯' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微访谈' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微课堂' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '生涯导航' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微分享' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '素材库' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微专题' LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_special` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '印象大学城' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '梦想在路上' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `catname` = '素材库' LIMIT 6   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000320s ]
+NOTIC: [8] Undefined variable: hotkey D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\e88dd8411febd58e93ecf95dbacf2adc.php 第 298 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001268s ]
+
+[ 2016-09-29T21:32:52+08:00 ] 66.249.69.206 /qzvs/index.php/Home/Index/play/id/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001370s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0283s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `id` = '9' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微生活' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微电影' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微资讯' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微访谈' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微课堂' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '生涯导航' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微分享' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '素材库' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微专题' LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_special` [ RunTime:0.0334s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '印象大学城' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '梦想在路上' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_category` WHERE `catid` = 23 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `qzvideo_weishi` SET `hits`='36' WHERE `id` = '9' [ RunTime:0.0236s ]
+SQL: SHOW COLUMNS FROM `qzvideo_hits` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `qzvideo_hits` WHERE `videoid` = '9' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `qzvideo_hits` SET `views`='36',`updatetime`='2016-09-29',`dayviews`='1',`weekviews`='1',`monthviews`='6' WHERE `catid` = '23' AND `videoid` = '9' [ RunTime:0.0115s ]
+SQL: SELECT * FROM `qzvideo_weishi` ORDER BY hits desc LIMIT 7   [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant play - assumed 'play' D:\xampp\htdocs\qzvs\Index\Home\Controller\IndexController.class.php 第 187 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029179s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001215s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001289s ]
+
+[ 2016-09-29T22:48:37+08:00 ] 66.249.69.211 /qzvs/index.php/Home/Search/SearchList/catid/31/type/1/time/year.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001215s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0364s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = 31 AND ( `inputtime` > '2015-10-05' AND `inputtime` <= '2016-09-29'  ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = 31 AND ( `inputtime` > '2015-10-05' AND `inputtime` <= '2016-09-29'  ) ORDER BY id desc LIMIT 0,15   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 31 AND ( `inputtime` > '2015-10-05' AND `inputtime` <= '2016-09-29'  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微生活' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微电影' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微资讯' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微访谈' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微课堂' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '生涯导航' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微分享' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '素材库' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微专题' LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_special` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '印象大学城' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '梦想在路上' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `catname` = '素材库' LIMIT 6   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+NOTIC: [8] Undefined variable: hotkey D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\e88dd8411febd58e93ecf95dbacf2adc.php 第 298 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001153s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001242s ]
+

@@ -1,0 +1,51 @@
+.movitemContent a .movContent_right{
+	float: none;
+}
+.movitemContent a .movContent_left{
+	width: 100%;
+	height: 80%;
+}
+.movTitle,.movitemContent a .movContent_right p:last-of-type:not([class*='p']),.movContent_right .dataInfo{
+	display: none;
+}
+.movList .movListBox li{
+	width: 20%;
+}
+.movitemContent a .movContent_right h5{
+	font-size: 14px;
+	color: #333333;
+	font-weight: normal;
+	border-bottom: none;
+}
+#movie-list{
+	background: #FFFFFF;
+	color: #999999;
+}
+#movie-tile{
+	background: rgb(37,170,227);
+    color: #ffffff;
+}
+@media only screen and (max-width: 1024px) {
+	.movList .movListBox li{
+		width: 25%;
+		padding-top: 25%;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.movList .movListBox li{
+		width: 33.3333%;
+		padding-top:30%;
+	}
+}
+@media only screen and (max-width: 580px) {
+	.movList .movListBox li{
+		width: 50%;
+		padding-top:45%;
+	}
+}
+@media only screen and (max-width: 420px) {
+	.movList .movListBox li{
+		width: 100%;
+		padding-top:80%;
+	}
+}

@@ -1,0 +1,220 @@
+[ 2016-08-11T11:09:11+08:00 ] ::1 /qzvs/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+
+[ 2016-08-11T11:09:11+08:00 ] ::1 /qzvs/admin.php/Home/Index/login/0/cate_id%3D%3E2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000309s ]
+
+[ 2016-08-11T11:09:13+08:00 ] ::1 /qzvs/admin.php/Home/Index/login/0/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+
+[ 2016-08-11T11:09:24+08:00 ] ::1 /qzvs/admin.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001330s ]
+SQL: SHOW COLUMNS FROM `qzvideo_admin` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `qzvideo_admin` WHERE `username` = '采薇' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `qzvideo_admin` SET `lastloginip`='0.0.0.0',`lastlogintime`='16' WHERE `username` = '采薇' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' AND `userid` = 66 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2016-08-11T11:09:26+08:00 ] ::1 /qzvs/admin.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant 超级管理员 - assumed '超级管理员' D:\xampp\htdocs\qzvs\Admin\Home\Controller\IndexController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\xampp\htdocs\qzvs\Admin\Home\Controller\IndexController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2016-08-11T11:09:26+08:00 ] ::1 /qzvs/admin.php/Home/Index/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+
+[ 2016-08-11T11:09:26+08:00 ] ::1 /qzvs/admin.php/Home/Index/index_v1.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004218s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000338s ]
+
+[ 2016-08-11T15:51:47+08:00 ] ::1 /qzvs/admin.php/Home/Lable/Showlist.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0025s ]
+NOTIC: [8] Undefined variable: condition D:\xampp\htdocs\qzvs\Admin\Home\Controller\LableController.class.php 第 17 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_lable` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: condition D:\xampp\htdocs\qzvs\Admin\Home\Controller\LableController.class.php 第 18 行.
+SQL: SELECT `lableid`,`catname`,`labname`,`uplm`,`updh` FROM `qzvideo_lable` ORDER BY lableid desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2016-08-11T15:52:03+08:00 ] ::1 /qzvs/admin.php/Home/Lable/Add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0031s ]
+SQL: INSERT INTO `qzvideo_lable` (`labname`,`catname`) VALUES ('梦想在路上','微专题') [ RunTime:0.0042s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2016-08-11T15:52:05+08:00 ] ::1 /qzvs/admin.php/Home/Lable/Showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0027s ]
+NOTIC: [8] Undefined variable: condition D:\xampp\htdocs\qzvs\Admin\Home\Controller\LableController.class.php 第 17 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_lable` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: condition D:\xampp\htdocs\qzvs\Admin\Home\Controller\LableController.class.php 第 18 行.
+SQL: SELECT `lableid`,`catname`,`labname`,`uplm`,`updh` FROM `qzvideo_lable` ORDER BY lableid desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2016-08-11T15:52:22+08:00 ] ::1 /qzvs/admin.php/Home/Lable/updh/id/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `lableid` = 23 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `qzvideo_lable` SET `updh`='1' WHERE `lableid` = 23 [ RunTime:0.0012s ]
+
+[ 2016-08-11T15:52:24+08:00 ] ::1 /qzvs/admin.php/Home/Lable/Showlist/cate_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0026s ]
+NOTIC: [8] Undefined variable: condition D:\xampp\htdocs\qzvs\Admin\Home\Controller\LableController.class.php 第 17 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_lable` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: condition D:\xampp\htdocs\qzvs\Admin\Home\Controller\LableController.class.php 第 18 行.
+SQL: SELECT `lableid`,`catname`,`labname`,`uplm`,`updh` FROM `qzvideo_lable` ORDER BY lableid desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+

@@ -1,0 +1,89 @@
+[ 2016-08-19T10:13:44+08:00 ] 127.0.0.1 /qzvs/index.php/Home/Search/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微生活' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微电影' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微资讯' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微访谈' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微课堂' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '生涯导航' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微分享' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '素材库' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微专题' LIMIT 3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qzvideo_special` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '印象大学城' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '梦想在路上' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `updh` = 1 ORDER BY lableid desc LIMIT 4   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\xampp\htdocs\qzvs\Index\Home\Controller\SearchController.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `qzvideo_keyword` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_keyword` WHERE `keydata` LIKE '%%' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qzvideo_keyword` [ RunTime:0.0021s ]
+SQL: SELECT keyword.videoid,weishi.title as title,weishi.thumb as thumb,weishi.description as description FROM qzvideo_keyword keyword,qzvideo_weishi weishi WHERE ( keyword.videoid=weishi.id ) AND `keydata` LIKE '%%' ORDER BY keyword.keyid desc LIMIT 0,1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_keyword` WHERE `keydata` LIKE '%%' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qzvideo_search` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `qzvideo_search` WHERE `keyword` = ''  [ RunTime:0.0002s ]
+SQL: UPDATE `qzvideo_search` SET `searchnums`=searchnums+1 WHERE `keyword` = '' [ RunTime:0.0012s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\xampp\htdocs\qzvs\Index\Home\Controller\SearchController.class.php 第 298 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000636s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000664s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000743s ]
+
+[ 2016-08-19T10:13:45+08:00 ] 127.0.0.1 /qzvs/index.php/Home/Search/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微生活' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微电影' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微资讯' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微访谈' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微课堂' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '生涯导航' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微分享' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '素材库' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微专题' LIMIT 3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qzvideo_special` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '印象大学城' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '梦想在路上' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `updh` = 1 ORDER BY lableid desc LIMIT 4   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\xampp\htdocs\qzvs\Index\Home\Controller\SearchController.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `qzvideo_keyword` [ RunTime:0.0024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_keyword` WHERE `keydata` LIKE '%%' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qzvideo_keyword` [ RunTime:0.0021s ]
+SQL: SELECT keyword.videoid,weishi.title as title,weishi.thumb as thumb,weishi.description as description FROM qzvideo_keyword keyword,qzvideo_weishi weishi WHERE ( keyword.videoid=weishi.id ) AND `keydata` LIKE '%%' ORDER BY keyword.keyid desc LIMIT 0,1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_keyword` WHERE `keydata` LIKE '%%' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\xampp\htdocs\qzvs\Index\Home\Controller\SearchController.class.php 第 298 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000354s ]
+

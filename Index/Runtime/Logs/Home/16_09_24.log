@@ -1,0 +1,757 @@
+[ 2016-09-24T04:35:12+08:00 ] 180.76.15.13 /qzvs/index.php/Home/Video/showlist/catid/28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0260s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qzvideo_weishi` WHERE `catid` = 28 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`catid`,`title`,`thumb`,`keywords`,`description`,`content`,`url`,`username`,`inputtime`,`updatetime`,`director`,`performer`,`length`,`Score`,`bigpic`,`top`,`discipline`,`authorthum`,`up`,`picplayer`,`teamdes`,`directoraim`,`guest`,`hits`,`specialid`,`lable`,`zan` FROM `qzvideo_weishi` WHERE `catid` = 28 ORDER BY id desc LIMIT 0,8   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 28 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微生活' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微电影' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微资讯' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微访谈' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微课堂' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '生涯导航' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微分享' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '素材库' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `updh` = 1 AND `catname` = '微专题' LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_special` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '印象大学城' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_special` WHERE `title` = '梦想在路上' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qzvideo_search` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `qzvideo_search` ORDER BY searchnums desc LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `catname` = '微课堂' LIMIT 6   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant weiketang - assumed 'weiketang' D:\xampp\htdocs\qzvs\Index\Home\Controller\VideoController.class.php 第 105 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033218s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001260s ]
+
+[ 2016-09-24T04:54:57+08:00 ] 120.132.50.135 http://www.ctrip.com/qzvs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001231s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `banner` WHERE `if_valid` = '有效' ORDER BY slide_order desc LIMIT 9   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_special` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `qzvideo_special` ORDER BY id desc LIMIT 7   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 26 ORDER BY id desc LIMIT 6   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 26 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 26 AND `up` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 23 ORDER BY id desc LIMIT 5   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 23 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 27 ORDER BY id desc LIMIT 6   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 27 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 27 AND `up` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 25 ORDER BY id desc LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 25 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 28 ORDER BY id desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 28 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 28 AND `up` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 29 ORDER BY id desc LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 29 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 30 ORDER BY id desc LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 30 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 31 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微生活' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微电影' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微资讯' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微访谈' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微课堂' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '生涯导航' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微分享' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '素材库' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_search` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `qzvideo_search` ORDER BY searchnums desc LIMIT 5   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\xampp\htdocs\qzvs\Index\Home\Controller\IndexController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000414s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 409 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 410 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 412 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 413 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 415 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 416 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 418 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 419 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 421 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 422 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 424 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 425 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 442 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 442 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 443 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 443 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 444 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 444 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 445 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 445 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 446 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 446 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 447 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 447 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 448 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 448 行.
+NOTIC: [8] Undefined offset: 12 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 449 行.
+NOTIC: [8] Undefined offset: 12 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 449 行.
+NOTIC: [8] Undefined offset: 13 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 450 行.
+NOTIC: [8] Undefined offset: 13 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 450 行.
+NOTIC: [8] Undefined variable: wzx D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 468 行.
+NOTIC: [8] Undefined variable: wzx D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 469 行.
+NOTIC: [8] Undefined variable: wzx D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 470 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 523 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 524 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 526 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 527 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 529 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 530 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 532 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 533 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 535 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 536 行.
+NOTIC: [8] Undefined index: descipline D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 642 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049207s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001385s ]
+
+[ 2016-09-24T07:31:51+08:00 ] 163.172.49.61 /qzvs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0328s ]
+SQL: SELECT * FROM `banner` WHERE `if_valid` = '有效' ORDER BY slide_order desc LIMIT 9   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_special` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `qzvideo_special` ORDER BY id desc LIMIT 7   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 26 ORDER BY id desc LIMIT 6   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 26 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 26 AND `up` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 23 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 23 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 27 ORDER BY id desc LIMIT 6   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 27 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 27 AND `up` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 25 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 25 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 28 ORDER BY id desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 28 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 28 AND `up` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 29 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 29 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 30 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 30 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 31 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微生活' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微电影' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微资讯' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微访谈' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微课堂' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '生涯导航' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微分享' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '素材库' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_search` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `qzvideo_search` ORDER BY searchnums desc LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\xampp\htdocs\qzvs\Index\Home\Controller\IndexController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000431s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000513s ]
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 409 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 410 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 412 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 413 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 415 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 416 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 418 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 419 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 421 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 422 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 424 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 425 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 442 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 442 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 443 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 443 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 444 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 444 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 445 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 445 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 446 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 446 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 447 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 447 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 448 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 448 行.
+NOTIC: [8] Undefined offset: 12 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 449 行.
+NOTIC: [8] Undefined offset: 12 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 449 行.
+NOTIC: [8] Undefined offset: 13 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 450 行.
+NOTIC: [8] Undefined offset: 13 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 450 行.
+NOTIC: [8] Undefined variable: wzx D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 468 行.
+NOTIC: [8] Undefined variable: wzx D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 469 行.
+NOTIC: [8] Undefined variable: wzx D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 470 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 523 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 524 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 526 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 527 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 529 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 530 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 532 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 533 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 535 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 536 行.
+NOTIC: [8] Undefined index: descipline D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 642 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049238s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001366s ]
+
+[ 2016-09-24T08:51:12+08:00 ] 157.55.39.104 /qzvs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001318s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `banner` WHERE `if_valid` = '有效' ORDER BY slide_order desc LIMIT 9   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qzvideo_special` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `qzvideo_special` ORDER BY id desc LIMIT 7   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 26 ORDER BY id desc LIMIT 6   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 26 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 26 AND `up` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 23 ORDER BY id desc LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 23 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 27 ORDER BY id desc LIMIT 6   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 27 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 27 AND `up` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 25 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 25 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 28 ORDER BY id desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 28 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 28 AND `up` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 29 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 29 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 30 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 30 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 31 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0183s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微生活' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微电影' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微资讯' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微访谈' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微课堂' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '生涯导航' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微分享' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '素材库' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qzvideo_search` [ RunTime:0.0158s ]
+SQL: SELECT * FROM `qzvideo_search` ORDER BY searchnums desc LIMIT 5   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\xampp\htdocs\qzvs\Index\Home\Controller\IndexController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000405s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000505s ]
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 409 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 410 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 412 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 413 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 415 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 416 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 418 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 419 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 421 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 422 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 424 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 425 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 442 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 442 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 443 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 443 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 444 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 444 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 445 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 445 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 446 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 446 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 447 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 447 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 448 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 448 行.
+NOTIC: [8] Undefined offset: 12 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 449 行.
+NOTIC: [8] Undefined offset: 12 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 449 行.
+NOTIC: [8] Undefined offset: 13 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 450 行.
+NOTIC: [8] Undefined offset: 13 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 450 行.
+NOTIC: [8] Undefined variable: wzx D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 468 行.
+NOTIC: [8] Undefined variable: wzx D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 469 行.
+NOTIC: [8] Undefined variable: wzx D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 470 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 523 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 524 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 526 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 527 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 529 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 530 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 532 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 533 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 535 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 536 行.
+NOTIC: [8] Undefined index: descipline D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 642 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001203s ]
+
+[ 2016-09-24T17:02:16+08:00 ] 183.175.147.31 /qzvs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0274s ]
+SQL: SELECT * FROM `banner` WHERE `if_valid` = '有效' ORDER BY slide_order desc LIMIT 9   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_special` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `qzvideo_special` ORDER BY id desc LIMIT 7   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 26 ORDER BY id desc LIMIT 6   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 26 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 26 AND `up` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 23 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 23 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 27 ORDER BY id desc LIMIT 6   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 27 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 27 AND `up` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 25 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 25 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 28 ORDER BY id desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 28 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 28 AND `up` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 29 ORDER BY id desc LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 29 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 30 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 30 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 31 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0274s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微生活' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微电影' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微资讯' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微访谈' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微课堂' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '生涯导航' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微分享' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '素材库' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_search` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `qzvideo_search` ORDER BY searchnums desc LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\xampp\htdocs\qzvs\Index\Home\Controller\IndexController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000388s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000465s ]
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 409 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 410 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 412 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 413 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 415 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 416 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 418 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 419 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 421 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 422 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 424 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 425 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 442 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 442 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 443 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 443 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 444 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 444 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 445 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 445 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 446 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 446 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 447 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 447 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 448 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 448 行.
+NOTIC: [8] Undefined offset: 12 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 449 行.
+NOTIC: [8] Undefined offset: 12 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 449 行.
+NOTIC: [8] Undefined offset: 13 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 450 行.
+NOTIC: [8] Undefined offset: 13 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 450 行.
+NOTIC: [8] Undefined variable: wzx D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 468 行.
+NOTIC: [8] Undefined variable: wzx D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 469 行.
+NOTIC: [8] Undefined variable: wzx D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 470 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 523 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 524 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 526 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 527 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 529 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 530 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 532 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 533 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 535 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 536 行.
+NOTIC: [8] Undefined index: descipline D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 642 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001146s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001218s ]
+
+[ 2016-09-24T17:02:35+08:00 ] 183.175.147.31 /qzvs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `banner` WHERE `if_valid` = '有效' ORDER BY slide_order desc LIMIT 9   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_special` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `qzvideo_special` ORDER BY id desc LIMIT 7   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 26 ORDER BY id desc LIMIT 6   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 26 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 26 AND `up` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 23 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 23 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 27 ORDER BY id desc LIMIT 6   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 27 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 27 AND `up` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 25 ORDER BY id desc LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 25 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 28 ORDER BY id desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 28 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 28 AND `up` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 29 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 29 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 30 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 30 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 31 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微生活' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微电影' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微资讯' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微访谈' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微课堂' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '生涯导航' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微分享' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '素材库' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_search` [ RunTime:0.0193s ]
+SQL: SELECT * FROM `qzvideo_search` ORDER BY searchnums desc LIMIT 5   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\xampp\htdocs\qzvs\Index\Home\Controller\IndexController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000421s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000514s ]
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 409 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 410 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 412 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 413 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 415 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 416 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 418 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 419 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 421 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 422 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 424 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 425 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 442 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 442 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 443 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 443 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 444 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 444 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 445 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 445 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 446 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 446 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 447 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 447 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 448 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 448 行.
+NOTIC: [8] Undefined offset: 12 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 449 行.
+NOTIC: [8] Undefined offset: 12 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 449 行.
+NOTIC: [8] Undefined offset: 13 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 450 行.
+NOTIC: [8] Undefined offset: 13 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 450 行.
+NOTIC: [8] Undefined variable: wzx D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 468 行.
+NOTIC: [8] Undefined variable: wzx D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 469 行.
+NOTIC: [8] Undefined variable: wzx D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 470 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 523 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 524 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 526 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 527 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 529 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 530 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 532 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 533 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 535 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 536 行.
+NOTIC: [8] Undefined index: descipline D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 642 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001127s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001196s ]
+
+[ 2016-09-24T17:02:49+08:00 ] 183.175.147.31 /qzvs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001170s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `banner` WHERE `if_valid` = '有效' ORDER BY slide_order desc LIMIT 9   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_special` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `qzvideo_special` ORDER BY id desc LIMIT 7   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 26 ORDER BY id desc LIMIT 6   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 26 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 26 AND `up` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 23 ORDER BY id desc LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 23 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 27 ORDER BY id desc LIMIT 6   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 27 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 27 AND `up` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 25 ORDER BY id desc LIMIT 5   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 25 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 28 ORDER BY id desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 28 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 28 AND `up` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 29 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 29 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 30 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 30 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 31 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微生活' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微电影' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微资讯' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微访谈' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微课堂' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '生涯导航' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微分享' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '素材库' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_search` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `qzvideo_search` ORDER BY searchnums desc LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\xampp\htdocs\qzvs\Index\Home\Controller\IndexController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000420s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000501s ]
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 409 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 410 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 412 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 413 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 415 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 416 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 418 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 419 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 421 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 422 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 424 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 425 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 442 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 442 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 443 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 443 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 444 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 444 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 445 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 445 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 446 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 446 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 447 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 447 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 448 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 448 行.
+NOTIC: [8] Undefined offset: 12 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 449 行.
+NOTIC: [8] Undefined offset: 12 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 449 行.
+NOTIC: [8] Undefined offset: 13 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 450 行.
+NOTIC: [8] Undefined offset: 13 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 450 行.
+NOTIC: [8] Undefined variable: wzx D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 468 行.
+NOTIC: [8] Undefined variable: wzx D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 469 行.
+NOTIC: [8] Undefined variable: wzx D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 470 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 523 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 524 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 526 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 527 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 529 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 530 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 532 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 533 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 535 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 536 行.
+NOTIC: [8] Undefined index: descipline D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 642 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001191s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001274s ]
+
+[ 2016-09-24T22:06:25+08:00 ] 101.7.149.182 /qzvs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001610s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0358s ]
+SQL: SELECT * FROM `banner` WHERE `if_valid` = '有效' ORDER BY slide_order desc LIMIT 9   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qzvideo_special` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `qzvideo_special` ORDER BY id desc LIMIT 7   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qzvideo_weishi` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 26 ORDER BY id desc LIMIT 6   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 26 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 26 AND `up` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 23 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 23 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 27 ORDER BY id desc LIMIT 6   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 27 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 27 AND `up` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 25 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 25 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 28 ORDER BY id desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 28 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 28 AND `up` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 29 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 29 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 30 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 30 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_weishi` WHERE `catid` = 31 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qzvideo_weishi` WHERE `catid` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_category` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `qzvideo_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qzvideo_lable` [ RunTime:0.0265s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微生活' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微电影' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微资讯' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微访谈' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微课堂' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '生涯导航' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '微分享' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qzvideo_lable` WHERE `uplm` = 1 AND `catname` = '素材库' ORDER BY lableid desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qzvideo_search` [ RunTime:0.0333s ]
+SQL: SELECT * FROM `qzvideo_search` ORDER BY searchnums desc LIMIT 5   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\xampp\htdocs\qzvs\Index\Home\Controller\IndexController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000413s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000498s ]
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 409 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 410 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 412 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 413 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 415 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 416 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 418 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 419 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 421 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 422 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 424 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 425 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 442 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 442 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 443 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 443 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 444 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 444 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 445 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 445 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 446 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 446 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 447 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 447 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 448 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 448 行.
+NOTIC: [8] Undefined offset: 12 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 449 行.
+NOTIC: [8] Undefined offset: 12 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 449 行.
+NOTIC: [8] Undefined offset: 13 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 450 行.
+NOTIC: [8] Undefined offset: 13 D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 450 行.
+NOTIC: [8] Undefined variable: wzx D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 468 行.
+NOTIC: [8] Undefined variable: wzx D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 469 行.
+NOTIC: [8] Undefined variable: wzx D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 470 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 523 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 524 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 526 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 527 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 529 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 530 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 532 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 533 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 535 行.
+NOTIC: [8] Undefined variable: wft D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 536 行.
+NOTIC: [8] Undefined index: descipline D:\xampp\htdocs\qzvs\Index\Runtime\Cache\Home\f8cf203eb98c60ed9cec339b90173a5c.php 第 642 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049082s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001146s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001219s ]
+

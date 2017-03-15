@@ -1,0 +1,21 @@
+#row_rag{
+    width: 40%;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .col-sm-6 {
+        width: 100%;
+    }
+}
+#content{
+    position: relative;
+    top:-800px;
+    left: 30%;
+   /* width: 60%;*/
+    /*background: #676a6c;*/
+}
+.title,.content{
+    background-color: #e7eaec!important;
+    border-bottom: solid 1px #Ffffff!important;
+}

@@ -1,0 +1,97 @@
+.navBox .searchBox{
+	margin: 0 auto;
+	padding-top: 42px;
+	width: 680px;
+	height: 56px;
+	background: url(../img/search_listback.png) center bottom no-repeat;
+}
+.navBox .searchBox input{
+	float: left;
+}
+.navBox .searchBox .inputcontent{
+	width: 600px;
+	height: 56px;
+	border: none;
+	outline: none;
+	text-indent: 16px;
+	color: #8B93A0;
+	background: transparent;
+}
+.navBox .searchBox .submit{
+	width: 80px;
+	height: 56px;
+	border: none;
+	outline: none;
+	background: transparent;
+	cursor: pointer;
+}
+.navBox .result{
+	text-align: center;
+	font-size: 0.875em;
+	color: #e1e8f2;
+	margin: 8px 4px 0;
+}
+.navBox .result span{
+	font-size: 1.125em;
+	color: #FFF3C8;
+}
+.newsList .newsListBox li{
+	width: 20%;
+	padding-top: 18.5%;
+}
+.newsitemContent{
+	width: 92%;
+	left: 4%;
+}
+.newsitemContent .newsImage{
+	width: 100%;
+	height: 75%;
+}
+.newsitemContent .searchContent{
+	width: 100%;
+	height: 25%;
+	float: left;
+}
+.newsitemContent .searchContent h3{
+	padding: 0 4px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	color: #333333;
+	font-weight: 100;
+	font-size: 1em;
+	margin: 6px 0;
+}
+.newsitemContent .searchContent p{
+	padding: 0 4px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	color: #98999b;
+	font-size: 0.875em;
+}
+
+@media (max-width: 1024px) {
+	.newsList .newsListBox li{
+		width: 25%;
+		padding-top: 22.75%;
+	}
+}
+@media (max-width: 886px) {
+	.newsList .newsListBox li{
+		width: 33.3333%;
+		padding-top: 30.333%;
+	}
+}
+@media (max-width: 640px) {
+	.newsList .newsListBox li{
+		width: 50%;
+		padding-top: 45.5%;
+	}
+	.newsitemContent .searchContent h3{
+		font-size: .875em;
+	}
+	.newsitemContent .searchContent p{
+		font-size: .75em;
+	}
+}

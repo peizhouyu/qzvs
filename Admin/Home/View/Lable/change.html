@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <title>清泽微视 </title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <link rel="shortcut icon" href="favicon.ico"> <link href="__CSSURL__/bootstrap.min.css?v=3.3.5" rel="stylesheet">
+    <link href="__CSSURL__/font-awesome.css?v=4.4.0" rel="stylesheet">
+    <link href="__CSSURL__/plugins/iCheck/custom.css" rel="stylesheet">
+    <link href="__CSSURL__/animate.css" rel="stylesheet">
+    <link href="__CSSURL__/style.css?v=4.0.0" rel="stylesheet"><base target="_self">
+    <style type="text/css">
+    .page ul div li{
+        float: left;  
+        margin-left: 5px;
+        margin-right: 5px;    
+    }
+</style>
+
+</head>
+
+<body class="gray-bg">
+   
+     <div class="wrapper wrapper-content animated fadeInRight">
+        <div class="row">
+            <div class="col-sm-6" style="width:100%;">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>修改标签</h5>
+                    </div>
+                    <div class="ibox-content">
+                         <form class="form-horizontal m-t" id="signupForm" action="{:U('Lable/change')}" method="post">
+                         <input type="hidden" name="lableid" class="form-control"  value="{$labinfo.lableid}">
+                                         <div  class="form-group">
+                                            <label class="col-sm-3 control-label">标签名称：</label>
+                                            <div class="col-sm-8">
+                                                <input type="text" name="name" class="form-control" placeholder="请输入文本" value="{$labinfo.labname}">
+                                            </div>
+                                         </div> 
+                                           <div class="form-group">
+                                                <label class="col-sm-3 control-label">所属栏目：</label>
+                                                <div class="col-sm-8">
+                                                    <select class="form-control" name="catname">
+                                                        <volist name="catinfo" id="vo">
+                                                            <eq name="vo.catname" value="$labinfo['catname']">
+                                                                <option value="{$vo.catname}" selected>{$vo.catname}</option>
+                                                            </eq>
+                                                            <neq name="vo.catname" value="$labinfo['catname']">
+                                                                <option value="{$vo.catname}" >{$vo.catname}</option>
+                                                            </neq>
+                                                        </volist>
+                                                        <option value="微专题" <?php echo $labinfo=="微专题"?'selected':'';?>微专题</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="col-sm-8 col-sm-offset-3">
+                                                    <button class="btn btn-primary" type="submit">提交</button>                                                    <a class="btn btn-primary" href= "{:U('Lable/Showlist')}">取消</a>
+                                                </div>
+                                            
+                                            </div>
+                                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+          
+    <!-- 全局js -->
+    <script src="__JSURL__/jquery.min.js?v=2.1.4"></script>
+    <script src="__JSURL__/bootstrap.min.js?v=3.3.5"></script>
+
+
+
+    <!-- Peity -->
+    <script src="__JSURL__/plugins/peity/jquery.peity.min.js"></script>
+
+    <!-- 自定义js -->
+    <script src="__JSURL__/content.js?v=1.0.0"></script>
+
+
+    <!-- iCheck -->
+    <script src="__JSURL__/plugins/iCheck/icheck.min.js"></script>
+
+    <!-- Peity -->
+    <script src="__JSURL__/demo/peity-demo.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.i-checks').iCheck({
+                checkboxClass: 'icheckbox_square-green',
+                radioClass: 'iradio_square-green',
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>

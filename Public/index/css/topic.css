@@ -1,0 +1,195 @@
+.topicContent{
+	width: 100%;
+}
+.topicImg{
+	width: 100%;
+	height: 480px;
+	position: relative;
+	overflow: hidden;
+}
+.topicImg img{
+	height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+.topicBox{
+	width: 1200px;
+	overflow: hidden;
+	background: rgb(234,239,235);
+	height: auto;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+.topicBox .topicTitle{
+	width: 95%;
+	margin: 0 auto;
+}
+.topicBox .topicTitle h3{
+	line-height: 60px;
+	font-size: 1.5em;
+	color: #444444;
+}
+.topicBox .topicList{
+	width: 95%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.topicBox .topicList ul{
+	list-style: none;
+	width: 100%;
+	overflow: hidden;
+}
+.topicBox .topicList ul li{
+	width: 20%;
+	height: 0;
+	padding-top: 13.33%;
+	position: relative;
+	float: left;
+}
+.topicBox .topicList ul li.topicListSlide{
+	width: 40%;
+	height: 0;
+	padding-top: 26.6%;
+	float: left;
+}
+.topicBox .topicList ul li.topicListSlide a{
+	width: 97.5%;
+	height: 97.5%;
+}
+.topicBox .topicList ul li a{
+	width: 95%;
+	height: 95%;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+.topicBox .topicList ul li a .topicListImg{
+	width: 100%;
+	height: 100%;
+}
+.topicBox .topicList ul li a div{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.topicBox .topicList ul li a div i{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0);
+	display: block;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+.topicBox .topicList ul li a div img{
+	width: 20%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	display: none;
+}
+.topicBox .topicList ul li a:hover div i{
+	background: rgba(0,0,0,0.32);
+}
+.topicBox .topicList ul li a:hover div img{
+	display: block;
+}
+
+
+/*微访谈幻灯css*/
+#ftSlide *{
+	margin: 0;
+	padding: 0;
+	border: none;
+	text-decoration: none;
+	outline: none;
+	list-style-type: none;
+	font-family: "微软雅黑";
+}
+.topicListSlide{
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	height: 0;
+	padding-top: 67.5%;
+	
+}
+#ftSlide_content{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.ft_Slide_block{
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+}
+.ft_Slide_block img{
+	width: 100%;
+	height: 100%;
+}
+#ftSlide_control{
+	position: absolute;
+	bottom: 5%;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1;
+	width: auto;
+}
+#ftSlide_control li{
+	display: inline-block;
+	cursor: pointer;
+	width: 10px;
+	height: 10px;
+	background-color: rgb(210,210,210);
+	border-radius: 100%;
+	padding: 0;
+	margin: 0 2px;
+}
+
+
+
+@media (max-width: 1200px) {
+	.topicBox{width: 100%;}
+}
+@media (max-width: 1024px) {
+	.topicBox .topicList ul li{width: 25%;padding-top: 16.66%;}
+	.topicBox .topicList ul li.topicListSlide{width: 50%;padding-top: 33.3%;}
+}
+@media (max-width: 768px) {
+	.topicBox .topicList ul li{width: 33.33%;padding-top: 22%;}
+	.topicBox .topicList ul li.topicListSlide{width: 66.67%;padding-top: 43.6%;}
+}
+@media (max-width: 640px) {
+	.topicBox .topicList ul li{width: 50%;padding-top: 33.33%;}
+	.topicBox .topicList ul li.topicListSlide{width: 100%;padding-top: 66.6%;}
+}
